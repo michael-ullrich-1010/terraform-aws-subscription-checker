@@ -31,7 +31,7 @@ Steps:
 - In the first Lambda-run a **Subscription Token** will be pulled from our backend and stored in the env-vars of the Lambda
 - In the following Lambda-runs the **Subscription Token** will be taken from the env-vars of the Lambda
 
-Your Task: Attack the subscription mechanism to alter the Subscription Token.
+Your Task: Attack the subscription mechanism to alter the **Subscription Token**.
 
 Acceptance criteria:
 - **Subscription Token** must be tampered/faked to be valid. Currently, the subscription is expired.
