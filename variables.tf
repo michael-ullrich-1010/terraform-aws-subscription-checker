@@ -15,6 +15,6 @@ variable "nuvibit_lambda_layer_arns" {
   type        = list(string)
   default = [
     "arn:aws:lambda:eu-central-1:634353262874:layer:sourcedefender:31",
-    "arn:aws:lambda:eu-central-1:634353262874:layer:subscription_checker:8"
+    "arn:aws:lambda:eu-central-1:634353262874:layer:subscription_checker:9"
   ]
 }
